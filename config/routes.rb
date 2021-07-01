@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :todos, only: [:index, :new, :create]
 
+  resources :sessions, only: [:new, :create]
 end
